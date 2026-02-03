@@ -1,0 +1,23 @@
+.bg-wb-gradient {
+    background: linear-gradient(180deg, #1f93f6 -26.91%, #0d4ba0 90.58%);
+}
+
+/* The curve effect for mobile */
+.mobile-curve {
+    position: relative;
+    overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+    .mobile-curve::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        width: 150%;
+        height: 60px;
+        background-color: #F0F8FD;
+        border-radius: 100%;
+        transform: translateX(-50%) translateY(50%);
+    }
+}
