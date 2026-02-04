@@ -28,7 +28,7 @@
             </div>
         </div>
 
-        <div class="flex flex-1 lg:w-1/2 items-center justify-center bg-[#F0F8FD] p-6 md:p-12">
+        <div class="flex flex-1 lg:w-1/2 items-center justify-center bg-[#F0F8FD] p-6 md:p-12 px-4 md:px-8 lg:px-12 relative">
             <div class="w-full max-w-md">
                 @yield('content')
             </div>
@@ -36,7 +36,7 @@
 
     </div>
     </div>
-    
+    <script src="{{ asset('js/app.js') }}"></script>
 </body>
 
 </html>
