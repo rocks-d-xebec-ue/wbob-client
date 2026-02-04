@@ -1,7 +1,7 @@
 @extends('layouts.guest')
 
 @section('content')
-    <div class="w-full md:min-w-[400px] md:max-w-[400px] mx-4 md:mx-0">
+    <div class="w-full md:min-w-[440px] md:max-w-[440px] mx-4 md:mx-0">
         <div class="flex flex-col gap-y-[35px] lg:gap-6">
             <h6 class="text-xl sm:text-[22px] font-semibold text-center text-dark-500 w-full !leading-normal">
                 আপনার অ্যাকাউন্টে লগইন করুন

@@ -28,8 +28,8 @@
             </div>
         </div>
 
-        <div class="flex flex-1 lg:w-1/2 items-center justify-center bg-[#F0F8FD] p-6 md:p-12">
-            <div class="w-full max-w-md">
+        <div class="flex flex-l lg:w-1/2 items-center justify-center bg-[#F0F8FD] p-6 md:p-12">
+            <div class="w-full max-w-md mx-auto">
                 @yield('content')
             </div>
         </div>
